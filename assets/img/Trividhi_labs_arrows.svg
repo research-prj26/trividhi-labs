@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="51.924488mm"
+   height="56.975506mm"
+   viewBox="0 0 51.924487 56.975506"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   sodipodi:docname="Trividhi_labs_arrows.svg"
+   inkscape:export-filename="arrows.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.3095539"
+     inkscape:cx="70.252931"
+     inkscape:cy="59.562268"
+     inkscape:window-width="2880"
+     inkscape:window-height="1514"
+     inkscape:window-x="2869"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <rect
+       x="161.88719"
+       y="-256.57593"
+       width="126.76072"
+       height="125.9971"
+       id="rect3" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-15.059865,-21.500458)">
+    <g
+       id="g2">
+      <g
+         id="g1">
+        <path
+           id="path2-85-2"
+           style="fill:#00a0ff;stroke:#00a0ff;stroke-width:3.36576;stroke-miterlimit:0;paint-order:fill markers stroke"
+           inkscape:transform-center-x="3.1258411"
+           inkscape:transform-center-y="-0.20687637"
+           d="M 60.877032,47.527616 41.950302,37.146259 61.048702,25.523667 Z" />
+        <path
+           id="path2-8-7-8"
+           style="fill:none;stroke-width:1.79248;stroke-miterlimit:0;paint-order:fill markers stroke"
+           inkscape:transform-center-x="-3.6741951"
+           inkscape:transform-center-y="0.072326179"
+           d="M 40.954655,34.474906 63.444689,46.91163 41.177087,59.782323 Z" />
+        <path
+           id="path2-1-6-6"
+           style="fill:#00a0ff;stroke:#00a0ff;stroke-width:3.36576;stroke-miterlimit:0;paint-order:fill markers stroke"
+           inkscape:transform-center-x="3.1258424"
+           inkscape:transform-center-y="-0.20687931"
+           d="M 37.568308,61.906678 18.641578,51.525321 37.739978,39.902729 Z" />
+        <path
+           id="path2-2-1-0"
+           style="fill:#00a0ff;stroke:#00a0ff;stroke-width:3.36576;stroke-miterlimit:0;paint-order:fill markers stroke"
+           inkscape:transform-center-x="3.125841"
+           inkscape:transform-center-y="-0.20687372"
+           d="M 60.386698,74.298606 41.459968,63.917249 60.558368,52.294657 Z" />
+      </g>
+    </g>
+  </g>
+</svg>
