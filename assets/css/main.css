@@ -4952,3 +4952,27 @@ section,
     transition-duration: 0.01ms !important;
   }
 }
+
+/* ============================================================
+   EDUCATION PAGE — 3-up stakeholder grid refinements
+   Appended after the healthcare-page CSS block in main.css.
+   Why: Education has 3 stakeholders (Issuer + Holder + Verifier)
+   vs Healthcare's 2 (Patient + Verifier). Each card is narrower
+   so we tighten paddings and typography just for the 3-up case.
+   ============================================================ */
+@media (min-width: 992px) {
+  #stakeholder-lists .col-lg-4 .stakeholder-card-enhanced {
+    padding: 28px 24px;
+  }
+  #stakeholder-lists .col-lg-4 .stakeholder-card-enhanced .stakeholder-intro {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+  #stakeholder-lists .col-lg-4 .stakeholder-card-enhanced .stakeholder-list li {
+    font-size: 0.92rem;
+    line-height: 1.55;
+  }
+  #stakeholder-lists .col-lg-4 .stakeholder-card-enhanced .stakeholder-header h3 {
+    font-size: 1.15rem;
+  }
+}
