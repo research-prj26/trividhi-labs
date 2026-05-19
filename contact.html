@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>Contact Us - Trividhi Labs</title>
-  <meta name="description" content="Get in touch with the Trividhi team to learn how verifiable credentials can transform your ecosystem.">
+  <meta name="description" content="Get in touch with the Trividhi team to learn how verifiable credentials can transform your healthcare or education ecosystem.">
 
   <!-- Favicons -->
   <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
@@ -33,8 +33,7 @@
   <header id="header" class="header d-flex align-items-center sticky-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
       <a href="index.html" class="logo d-flex align-items-center">
-        <img src="assets/img/Trividhi_Labs_Logo1.svg" alt="Trividhi">
-        <!-- <h1 class="sitename">Trividhi Labs</h1> -->
+        <img src="assets/img/Trividhi_Labs_Logo1.svg" alt="Trividhi Labs">
       </a>
       <nav id="navmenu" class="navmenu">
         <ul>
@@ -46,6 +45,7 @@
               <li><a href="education.html">Education</a></li>
             </ul>
           </li>
+          <li><a href="careers.html">Careers</a></li>
           <li><a href="contact.html" class="active">Contact Us</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -55,57 +55,152 @@
 
   <main class="main">
 
-    <!-- Page Hero -->
-    <section id="hero" class="hero section dark-background page-hero">
+    <!-- ====== ENHANCED HERO ====== -->
+    <section id="hero" class="hero section dark-background page-hero hero-enhanced">
+      <div class="hero-mesh" aria-hidden="true"></div>
       <div class="hero-bg-shapes" aria-hidden="true">
         <span class="shape shape-1"></span>
         <span class="shape shape-2"></span>
+        <span class="shape shape-3"></span>
       </div>
-      <div class="container">
+
+      <div class="container position-relative">
         <div class="row gy-4 justify-content-center text-center">
           <div class="col-lg-9">
             <span class="hero-eyebrow" data-aos="fade-up" data-aos-delay="100">
               <i class="bi bi-chat-dots"></i> Get in Touch
             </span>
-            <h1 data-aos="fade-up" data-aos-delay="200">Contact Us</h1>
-            <p class="hero-description" data-aos="fade-up" data-aos-delay="300">We'd love to hear from you. Send us a message and our team will get back to you shortly.</p>
+            <h1 data-aos="fade-up" data-aos-delay="200">Let's Build <span class="hero-accent">Trusted Ecosystems</span> Together</h1>
+            <p class="hero-description" data-aos="fade-up" data-aos-delay="300">Whether you're exploring a pilot, looking to partner, or just curious about verifiable credentials — we'd love to hear from you. Our team responds within one business day.</p>
           </div>
         </div>
       </div>
     </section><!-- /Page Hero -->
 
-    <!-- Contact -->
-    <section id="contact" class="contact section">
+    <!-- ====== CONTACT CHANNELS (quick triage) ====== -->
+    <section id="contact-channels" class="contact-channels section section-bridge">
+      <div class="container">
+        <div class="row gy-4 justify-content-center text-center mb-5">
+          <div class="col-lg-9" data-aos="fade-up">
+            <h2>How can we help?</h2>
+            <p class="text-muted">Pick the right channel — or scroll down to send us a message directly.</p>
+          </div>
+        </div>
+
+        <div class="row gy-4 justify-content-center">
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <a href="#contact-form" class="channel-card">
+              <div class="channel-icon" style="--icon-color:#007bff;--icon-bg:rgba(0,123,255,0.12);">
+                <i class="bi bi-rocket-takeoff"></i>
+              </div>
+              <h4>Pilot a Solution</h4>
+              <p>Hospital, university, or insurer interested in a verifiable credentials pilot? Let's scope it together.</p>
+              <span class="channel-cta">Start a pilot <i class="bi bi-arrow-right"></i></span>
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <a href="#contact-form" class="channel-card">
+              <div class="channel-icon" style="--icon-color:#6f42c1;--icon-bg:rgba(111,66,193,0.12);">
+                <i class="bi bi-people-fill"></i>
+              </div>
+              <h4>Partnership</h4>
+              <p>Integration partner, reseller, or research collaborator? We're always open to meaningful collaborations.</p>
+              <span class="channel-cta">Partner with us <i class="bi bi-arrow-right"></i></span>
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <a href="mailto:support@trividhilabs.com" class="channel-card">
+              <div class="channel-icon" style="--icon-color:#20c997;--icon-bg:rgba(32,201,151,0.12);">
+                <i class="bi bi-life-preserver"></i>
+              </div>
+              <h4>Support</h4>
+              <p>Existing customer or developer needing technical help? Email us directly — we read every message.</p>
+              <span class="channel-cta">support@trividhilabs.com <i class="bi bi-arrow-right"></i></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Contact Channels -->
+
+    <!-- ====== CONTACT FORM ====== -->
+    <section id="contact-form" class="contact section light-background">
       <div class="container">
         <div class="row gy-4">
 
           <div class="col-lg-7" data-aos="fade-right" data-aos-delay="100">
             <div class="contact-form-wrap">
-              <h3>Send us a message</h3>
-              <p>Fill out the form and our team will respond within one business day.</p>
+              <span class="form-eyebrow"><i class="bi bi-envelope-paper"></i> Send a Message</span>
+              <h3>Tell us about your project</h3>
+              <p>The more we know upfront, the better we can prepare. Expect a reply within one business day.</p>
 
-              <form action="forms/contact.php" method="post" class="php-email-form mt-4">
+              <!--
+                NOTE: Replace YOUR_FORM_ID with your Formspree form ID.
+                Setup steps:
+                  1. Sign up free at https://formspree.io
+                  2. Create a new form, point notifications to support@trividhilabs.com
+                  3. Copy your form ID (format: xyzabcde) and replace YOUR_FORM_ID below
+              -->
+              <form id="contact-form-el" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="trividhi-form mt-4" novalidate>
+
+                <!-- Honeypot: bots fill this; humans don't see it. If filled, submission is ignored. -->
+                <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" class="d-none" aria-hidden="true">
+
+                <!-- Optional: customize Formspree's auto-reply / subject line -->
+                <input type="hidden" name="_subject" value="New contact from trividhilabs.com">
+
                 <div class="row gy-3">
 
-                  <div class="col-md-12">
-                    <label for="name-field" class="form-label">Your Name</label>
-                    <input type="text" name="name" id="name-field" class="form-control" required>
+                  <div class="col-md-6">
+                    <label for="name-field" class="form-label">Your Name <span class="req">*</span></label>
+                    <input type="text" name="name" id="name-field" class="form-control" required minlength="2" maxlength="100" autocomplete="name">
+                  </div>
+
+                  <div class="col-md-6">
+                    <label for="email-field" class="form-label">Work Email <span class="req">*</span></label>
+                    <input type="email" name="email" id="email-field" class="form-control" required maxlength="120" autocomplete="email">
+                  </div>
+
+                  <div class="col-md-6">
+                    <label for="organization-field" class="form-label">Organization</label>
+                    <input type="text" name="organization" id="organization-field" class="form-control" maxlength="120" autocomplete="organization" placeholder="Hospital, university, company…">
+                  </div>
+
+                  <div class="col-md-6">
+                    <label for="inquiry-field" class="form-label">Inquiry Type <span class="req">*</span></label>
+                    <select name="inquiry_type" id="inquiry-field" class="form-control form-select" required>
+                      <option value="" disabled selected>Select one…</option>
+                      <option value="Healthcare pilot">Healthcare pilot</option>
+                      <option value="Education pilot">Education pilot</option>
+                      <option value="Partnership">Partnership / Integration</option>
+                      <option value="Research collaboration">Research collaboration</option>
+                      <option value="Media / Press">Media / Press</option>
+                      <option value="General inquiry">General inquiry</option>
+                    </select>
                   </div>
 
                   <div class="col-md-12">
-                    <label for="email-field" class="form-label">Your Email</label>
-                    <input type="email" class="form-control" name="email" id="email-field" required>
+                    <label for="message-field" class="form-label">Message <span class="req">*</span></label>
+                    <textarea class="form-control" name="message" rows="6" id="message-field" required minlength="10" maxlength="2000" placeholder="Tell us about your context, your goals, and a rough timeline if you have one."></textarea>
+                    <div class="form-helper">
+                      <span class="char-counter"><span id="char-count">0</span> / 2000</span>
+                    </div>
                   </div>
 
                   <div class="col-md-12">
-                    <label for="message-field" class="form-label">Message</label>
-                    <textarea class="form-control" name="message" rows="6" id="message-field" required></textarea>
+                    <label class="form-check-label consent-label">
+                      <input type="checkbox" name="consent" id="consent-field" class="form-check-input" required>
+                      <span>I agree to be contacted by Trividhi Labs about my inquiry. <span class="req">*</span></span>
+                    </label>
                   </div>
 
-                  <div class="col-md-12 text-center">
-                    <div class="loading">Loading</div>
-                    <div class="error-message"></div>
-                    <div class="sent-message">Your message has been sent. Thank you!</div>
+                  <div class="col-md-12">
+                    <div class="form-status">
+                      <div class="form-status-msg loading"><i class="bi bi-arrow-clockwise"></i> Sending your message…</div>
+                      <div class="form-status-msg error" role="alert"></div>
+                      <div class="form-status-msg success" role="status"><i class="bi bi-check-circle-fill"></i> Thank you! Your message has been sent — we'll be in touch shortly.</div>
+                    </div>
 
                     <button type="submit" class="btn-submit">
                       <span>Send Message</span>
@@ -119,22 +214,123 @@
           </div>
 
           <div class="col-lg-5" data-aos="fade-left" data-aos-delay="200">
-            <div class="support-card">
-              <div class="support-icon">
-                <i class="bi bi-envelope-paper"></i>
+            <div class="contact-side-stack">
+
+              <div class="support-card">
+                <div class="support-icon">
+                  <i class="bi bi-envelope-paper"></i>
+                </div>
+                <h3>Direct Email</h3>
+                <p>Prefer email? We respond within one business day, Monday to Friday.</p>
+                <div class="support-email">
+                  <i class="bi bi-envelope"></i>
+                  <a href="mailto:support@trividhilabs.com">support@trividhilabs.com</a>
+                </div>
               </div>
-              <h3>Support</h3>
-              <p>For inquiries, support requests, or partnership opportunities, reach our team directly.</p>
-              <div class="support-email">
-                <i class="bi bi-envelope"></i>
-                <a href="mailto:support@trividhilabs.com">support@trividhilabs.com</a>
+
+              <div class="response-card">
+                <h4><i class="bi bi-clock-history"></i> What happens next?</h4>
+                <ol class="response-steps">
+                  <li><strong>Within 1 business day:</strong> a real person from our team reads your message and replies.</li>
+                  <li><strong>Within 1 week:</strong> if relevant, we'll schedule a 30-minute discovery call to scope your needs.</li>
+                  <li><strong>Within 2–4 weeks:</strong> for pilots, we share a tailored proposal with timelines and integration steps.</li>
+                </ol>
               </div>
+
+              <div class="trust-strip">
+                <div class="trust-strip-item">
+                  <i class="bi bi-shield-lock"></i>
+                  <span>Your data stays private</span>
+                </div>
+                <div class="trust-strip-item">
+                  <i class="bi bi-translate"></i>
+                  <span>We reply in English</span>
+                </div>
+                <div class="trust-strip-item">
+                  <i class="bi bi-geo-alt"></i>
+                  <span>Based in India, working globally</span>
+                </div>
+              </div>
+
             </div>
           </div>
 
         </div>
       </div>
-    </section><!-- /Contact -->
+    </section><!-- /Contact Form -->
+
+    <!-- ====== FAQ ====== -->
+    <section id="contact-faq" class="contact-faq section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Frequently Asked Questions</h2>
+        <p>Quick answers to what most people ask before getting in touch.</p>
+      </div>
+
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-9">
+            <div class="accordion trividhi-accordion" id="contactFaq">
+
+              <div class="accordion-item" data-aos="fade-up" data-aos-delay="100">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                    Do I need to be a developer or technical buyer to talk to you?
+                  </button>
+                </h3>
+                <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#contactFaq">
+                  <div class="accordion-body">No. We work with hospital administrators, university registrars, HR leaders, and policy teams just as often as with engineers. We'll meet you where you are — no jargon required.</div>
+                </div>
+              </div>
+
+              <div class="accordion-item" data-aos="fade-up" data-aos-delay="150">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                    How long does a typical pilot take?
+                  </button>
+                </h3>
+                <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#contactFaq">
+                  <div class="accordion-body">Most pilots run 8–12 weeks end-to-end, including scoping, integration, and a measured rollout to a small cohort. Larger institutions may take longer based on internal procurement and compliance cycles.</div>
+                </div>
+              </div>
+
+              <div class="accordion-item" data-aos="fade-up" data-aos-delay="200">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                    Will my data be shared or used to train AI?
+                  </button>
+                </h3>
+                <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#contactFaq">
+                  <div class="accordion-body">No. Information you share with us is used only to respond to your inquiry and serve you as a customer. We don't sell contact data and we don't train external models on it.</div>
+                </div>
+              </div>
+
+              <div class="accordion-item" data-aos="fade-up" data-aos-delay="250">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                    I'm a student or researcher — can I still reach out?
+                  </button>
+                </h3>
+                <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#contactFaq">
+                  <div class="accordion-body">Absolutely. We actively support academic research on verifiable credentials and digital identity. Use the "Research collaboration" inquiry type and tell us what you're working on.</div>
+                </div>
+              </div>
+
+              <div class="accordion-item" data-aos="fade-up" data-aos-delay="300">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
+                    Are you hiring?
+                  </button>
+                </h3>
+                <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#contactFaq">
+                  <div class="accordion-body">We're an early-stage team building thoughtfully. Even when no roles are posted, we maintain a talent pool — see our <a href="careers.html">Careers page</a> to apply.</div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /FAQ -->
 
   </main>
 
@@ -142,7 +338,6 @@
     <div class="container footer-top">
       <div class="row gy-4">
 
-        <!-- About / Brand Column -->
         <div class="col-lg-4 col-md-6 footer-about" data-aos="fade-up" data-aos-delay="100">
           <a href="index.html" class="logo d-flex align-items-center">
             <span class="sitename">Trividhi Labs</span>
@@ -150,7 +345,6 @@
           <p class="mt-3">Building trusted digital ecosystems through verifiable credentials.</p>
         </div>
 
-        <!-- Solutions -->
         <div class="col-lg-2 col-md-3 col-6 footer-links" data-aos="fade-up" data-aos-delay="200">
           <h4>Solutions</h4>
           <ul>
@@ -159,18 +353,16 @@
           </ul>
         </div>
 
-        <!-- About -->
         <div class="col-lg-2 col-md-3 col-6 footer-links" data-aos="fade-up" data-aos-delay="300">
           <h4>About</h4>
           <ul>
             <li><a href="#" title="Coming soon">About Us</a></li>
             <li><a href="#" title="Coming soon">Standards</a></li>
             <li><a href="#" title="Coming soon">Research</a></li>
-            <li><a href="#" title="Coming soon">Careers</a></li>
+            <li><a href="careers.html">Careers</a></li>
           </ul>
         </div>
 
-        <!-- Resources -->
         <div class="col-lg-2 col-md-3 col-6 footer-links" data-aos="fade-up" data-aos-delay="400">
           <h4>Resources</h4>
           <ul>
@@ -180,7 +372,6 @@
           </ul>
         </div>
 
-        <!-- Contact -->
         <div class="col-lg-2 col-md-3 col-6 footer-links" data-aos="fade-up" data-aos-delay="500">
           <h4>Contact</h4>
           <div class="footer-contact pt-1">
@@ -200,7 +391,6 @@
   <div id="preloader"></div>
 
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
@@ -208,6 +398,86 @@
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/js/main.js"></script>
+
+  <!-- =========================================================
+       Contact form handler — vanilla JS, no dependencies.
+       Submits via fetch() to Formspree (or any JSON-accepting
+       endpoint). Handles honeypot, character counter, loading,
+       success, and error states gracefully.
+       ========================================================= -->
+  <script>
+    (function () {
+      const form = document.getElementById('contact-form-el');
+      if (!form) return;
+
+      const loading = form.querySelector('.form-status-msg.loading');
+      const error = form.querySelector('.form-status-msg.error');
+      const success = form.querySelector('.form-status-msg.success');
+      const submitBtn = form.querySelector('.btn-submit');
+      const messageField = form.querySelector('#message-field');
+      const charCount = document.getElementById('char-count');
+
+      // Live character counter
+      if (messageField && charCount) {
+        messageField.addEventListener('input', function () {
+          charCount.textContent = messageField.value.length;
+        });
+      }
+
+      function resetStates() {
+        loading.classList.remove('d-block');
+        error.classList.remove('d-block');
+        success.classList.remove('d-block');
+      }
+
+      form.addEventListener('submit', async function (e) {
+        e.preventDefault();
+        resetStates();
+
+        // Native validation
+        if (!form.checkValidity()) {
+          form.reportValidity();
+          return;
+        }
+
+        // Honeypot guard (extra defense — Formspree handles this too)
+        const honey = form.querySelector('input[name="_gotcha"]');
+        if (honey && honey.value.trim() !== '') return;
+
+        loading.classList.add('d-block');
+        submitBtn.disabled = true;
+
+        try {
+          const data = new FormData(form);
+          const response = await fetch(form.action, {
+            method: 'POST',
+            body: data,
+            headers: { 'Accept': 'application/json' }
+          });
+
+          loading.classList.remove('d-block');
+
+          if (response.ok) {
+            success.classList.add('d-block');
+            form.reset();
+            if (charCount) charCount.textContent = '0';
+          } else {
+            const json = await response.json().catch(() => ({}));
+            const msg = (json.errors && json.errors.map(e => e.message).join(', ')) ||
+                        'Something went wrong. Please try again or email us directly at support@trividhilabs.com';
+            error.innerHTML = '<i class="bi bi-exclamation-triangle-fill"></i> ' + msg;
+            error.classList.add('d-block');
+          }
+        } catch (err) {
+          loading.classList.remove('d-block');
+          error.innerHTML = '<i class="bi bi-exclamation-triangle-fill"></i> Network error. Please check your connection and try again.';
+          error.classList.add('d-block');
+        } finally {
+          submitBtn.disabled = false;
+        }
+      });
+    })();
+  </script>
 
 </body>
 </html>
