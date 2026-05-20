@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Block crawling of vendor and form-vendor paths if they exist
+Disallow: /assets/vendor/
+
+# Sitemap (we'll add this next)
+Sitemap: https://research-prj26.github.io/trividhi-labs/sitemap.xml

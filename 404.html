@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Page Not Found - Trividhi Labs</title>
+  <meta name="description" content="The page you are looking for cannot be found.">
+
+  <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Raleway:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+    }
+    .error-page {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #ecf5ff 0%, #ffffff 100%);
+      padding: 40px 20px;
+      position: relative;
+      overflow: hidden;
+    }
+    .error-page::before,
+    .error-page::after {
+      content: '';
+      position: absolute;
+      border-radius: 50%;
+      filter: blur(80px);
+      opacity: 0.4;
+      pointer-events: none;
+    }
+    .error-page::before {
+      width: 320px;
+      height: 320px;
+      background: rgba(0, 123, 255, 0.25);
+      top: -80px;
+      left: -80px;
+    }
+    .error-page::after {
+      width: 280px;
+      height: 280px;
+      background: rgba(111, 66, 193, 0.2);
+      bottom: -60px;
+      right: -60px;
+    }
+    .error-content {
+      text-align: center;
+      max-width: 580px;
+      position: relative;
+      z-index: 1;
+    }
+    .error-code {
+      font-size: clamp(6rem, 20vw, 12rem);
+      font-weight: 800;
+      font-family: 'Raleway', sans-serif;
+      background: linear-gradient(135deg, #007bff 0%, #6f42c1 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      line-height: 1;
+      margin-bottom: 20px;
+      letter-spacing: -0.04em;
+    }
+    .error-title {
+      font-size: clamp(1.5rem, 4vw, 2rem);
+      font-weight: 600;
+      color: #283d50;
+      font-family: 'Raleway', sans-serif;
+      margin-bottom: 16px;
+    }
+    .error-text {
+      font-size: 1.05rem;
+      color: rgba(40, 61, 80, 0.75);
+      margin-bottom: 36px;
+      line-height: 1.65;
+    }
+    .error-actions {
+      display: flex;
+      gap: 14px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .error-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 13px 26px;
+      border-radius: 999px;
+      font-weight: 600;
+      font-size: 0.95rem;
+      text-decoration: none;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .error-btn-primary {
+      background: #007bff;
+      color: #ffffff;
+    }
+    .error-btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 12px 28px rgba(0, 123, 255, 0.3);
+      color: #ffffff;
+    }
+    .error-btn-ghost {
+      background: transparent;
+      color: #007bff;
+      border: 2px solid #007bff;
+    }
+    .error-btn-ghost:hover {
+      background: rgba(0, 123, 255, 0.08);
+      color: #007bff;
+    }
+    .error-brand {
+      position: absolute;
+      top: 32px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 2;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 600;
+      color: #283d50;
+      font-size: 1.1rem;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="error-page">
+    <a href="index.html" class="error-brand">Trividhi Labs</a>
+    <div class="error-content">
+      <div class="error-code">404</div>
+      <h1 class="error-title">Page not found</h1>
+      <p class="error-text">The page you're looking for doesn't exist, or has moved. Let's get you back on track.</p>
+      <div class="error-actions">
+        <a href="index.html" class="error-btn error-btn-primary">
+          <i class="bi bi-house-door"></i>
+          <span>Back to Home</span>
+        </a>
+        <a href="contact.html" class="error-btn error-btn-ghost">
+          <i class="bi bi-envelope"></i>
+          <span>Contact Us</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

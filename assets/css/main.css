@@ -2779,6 +2779,50 @@ section,
   transform: translateX(4px);
 }
 
+/* ============================================================
+   Global .btn-submit — works outside .contact section too
+   (used on careers.html talent-pool form)
+   ============================================================ */
+.btn-submit {
+  color: #ffffff;
+  background: var(--accent-color);
+  border: 0;
+  padding: 12px 32px;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
+  box-shadow: 0 6px 18px rgba(0, 123, 255, 0.25);
+}
+
+.btn-submit:hover {
+  background: #0067d8;
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px rgba(0, 123, 255, 0.35);
+  color: #ffffff;
+}
+
+.btn-submit i {
+  font-size: 1.05rem;
+  transition: transform 0.25s ease;
+}
+
+.btn-submit:hover i {
+  transform: translateX(4px);
+}
+
+.btn-submit:disabled,
+.btn-submit:disabled:hover {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: 0 6px 18px rgba(0, 123, 255, 0.15);
+}
+
 .contact .support-card {
   background: linear-gradient(135deg, #007bff, #1742a4);
   color: #ffffff;
