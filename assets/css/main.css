@@ -4259,6 +4259,16 @@ section,
   50%      { border-radius: 45% 55% 40% 60% / 60% 40% 60% 40%; }
 }
 
+/*--------------------------------------------------------------
+# Need for Digitization — smaller, centered feature images
+--------------------------------------------------------------*/
+.need-digitization .feature-image-decorated {
+  max-width: 400px;        /* shrink the box (was full column width) */
+  margin-left: auto;       /* center within the column */
+  margin-right: auto;
+  padding: 1.25rem;
+}
+
 /* Chip label on image */
 .feature-image-chip {
   position: absolute;
@@ -4282,7 +4292,7 @@ section,
 }
 
 /* Larger version for Seamless Sharing hero image */
-.feature-image-lg { aspect-ratio: 5 / 4; }
+.feature-image-lg { aspect-ratio: 4 / 3; }
 
 /* Feature text */
 .feature-eyebrow {
