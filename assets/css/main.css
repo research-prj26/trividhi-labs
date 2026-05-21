@@ -1733,14 +1733,27 @@ section,
   background-clip: text;
 }
 
-.header .logo img {
-  max-height: 70px;                 /* was 38px → increased */
-  margin-right: 10px;               /* slight extra gap */
+/* .header .logo img {
+  max-height: 70px;                
+  margin-right: 10px;               
   transition: transform 0.4s ease;
 }
 
 .header .logo:hover img {
   transform: rotate(-8deg) scale(1.05);
+} */
+
+.header .logo {
+  order: 2;
+}
+
+#navmenu {
+  order: 1;
+}
+
+.header .logo img {
+  max-height: 70px;                 /* was 38px → increased */
+  margin-right: 10px;               /* slight extra gap */
 }
 
 .header.scrolled {
@@ -1874,10 +1887,19 @@ section,
   font-weight: 700;
 }
 
-.hero-tagline {
+/* .hero-tagline {
   font-size: 14px !important;
   font-style: italic;
   color: rgba(255, 255, 255, 0.65) !important;
+  margin: 0 0 20px 0 !important;
+  letter-spacing: 0.3px;
+} */
+
+.hero-tagline {
+  font-size: 14px !important;
+  font-style: italic;
+  color: #ffd54a !important;          /* bright amber/gold */
+  font-weight: 600 !important;
   margin: 0 0 20px 0 !important;
   letter-spacing: 0.3px;
 }
@@ -1888,6 +1910,7 @@ section,
   color: rgba(255, 255, 255, 0.85) !important;
   margin-bottom: 32px !important;
   max-width: 600px;
+  /* text-align: left !important; */
 }
 
 .hero-cta {
@@ -2324,6 +2347,7 @@ section,
   line-height: 1.7;
   color: var(--default-color);
   margin: 0;
+  text-align: left;
 }
 
 @media (max-width: 640px) {
@@ -2335,6 +2359,7 @@ section,
   }
   .trusted-future p {
     font-size: 15px;
+    
   }
 }
 
@@ -3615,7 +3640,7 @@ section,
 }
 
 .application-healthcare:hover {
-  box-shadow: 0 24px 50px rgba(223, 21, 41, 0.18) !important;
+  box-shadow: 0 24px 50px rgba(111, 66, 193, 0.18) !important;
 }
 
 .application-education:hover {
@@ -3641,7 +3666,7 @@ section,
 }
 
 .application-healthcare .application-image-panel {
-  background: linear-gradient(135deg, #ffe5e9 0%, #ffd0d8 100%);
+  background: linear-gradient(135deg, #ede5ff 0%, #d9c8ff 100%);
 }
 
 .application-education .application-image-panel {
@@ -3694,7 +3719,7 @@ section,
 }
 
 .application-healthcare:hover .application-image {
-  filter: drop-shadow(0 16px 32px rgba(223, 21, 41, 0.3));
+  filter: drop-shadow(0 16px 32px rgba(111, 66, 193, 0.3));
 }
 
 .application-education:hover .application-image {
@@ -3733,8 +3758,8 @@ section,
 }
 
 .application-healthcare .application-tag {
-  background: rgba(223, 21, 41, 0.1) !important;
-  color: #df1529 !important;
+  background: rgba(111, 66, 193, 0.1) !important;
+  color: #6f42c1 !important;
 }
 
 .application-education .application-tag {
@@ -3800,7 +3825,7 @@ section,
 }
 
 .application-healthcare .application-bullets li i {
-  color: #df1529;
+  color: #6f42c1;
 }
 
 .application-education .application-bullets li i {
@@ -3834,8 +3859,8 @@ section,
 }
 
 .application-healthcare .btn-learn-more {
-  background: linear-gradient(135deg, #df1529, #ff4d61) !important;
-  box-shadow: 0 6px 18px rgba(223, 21, 41, 0.3) !important;
+  background: linear-gradient(135deg, #6f42c1, #9070e4) !important;
+  box-shadow: 0 6px 18px rgba(111, 66, 193, 0.3) !important;
 }
 
 .application-education .btn-learn-more {
@@ -3849,7 +3874,7 @@ section,
 }
 
 .application-healthcare .btn-learn-more:hover {
-  box-shadow: 0 12px 28px rgba(223, 21, 41, 0.4) !important;
+  box-shadow: 0 12px 28px rgba(111, 66, 193, 0.4) !important;
 }
 
 .application-education .btn-learn-more:hover {
@@ -5713,4 +5738,71 @@ section,
   .contact-channels .channel-card,
   .how-we-work .value-card,
   .opening-card { transition: none; }
+}
+
+/*--------------------------------------------------------------
+# Other Applications strip
+--------------------------------------------------------------*/
+.other-apps-strip {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 32px;
+  padding: 18px 28px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, rgba(0, 123, 255, 0.08), rgba(23, 66, 164, 0.08));
+  border: 1px solid rgba(0, 123, 255, 0.2);
+  text-decoration: none;
+  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.other-apps-strip:hover {
+  background: linear-gradient(135deg, #007bff, #1742a4);
+  border-color: transparent;
+  transform: translateY(-3px);
+  box-shadow: 0 12px 30px rgba(0, 123, 255, 0.25);
+}
+
+.other-apps-text {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  font-family: var(--nav-font);
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--heading-color);
+  transition: color 0.35s ease;
+}
+
+.other-apps-text i {
+  font-size: 20px;
+  color: #007bff;
+  transition: color 0.35s ease;
+}
+
+.other-apps-arrow {
+  font-size: 20px;
+  color: #007bff;
+  transition: transform 0.35s ease, color 0.35s ease;
+}
+
+.other-apps-strip:hover .other-apps-text,
+.other-apps-strip:hover .other-apps-text i,
+.other-apps-strip:hover .other-apps-arrow {
+  color: #ffffff;
+}
+
+.other-apps-strip:hover .other-apps-arrow {
+  transform: translateX(5px);
+}
+
+@media (max-width: 575.98px) {
+  .other-apps-strip {
+    flex-direction: row;
+    padding: 16px 20px;
+  }
+  .other-apps-text {
+    font-size: 14px;
+  }
 }
