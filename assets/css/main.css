@@ -1743,13 +1743,14 @@ section,
   transform: rotate(-8deg) scale(1.05);
 } */
 
-.header .logo {
+/* logo on right top corner and navmenu will be on the left */
+/* .header .logo {  
   order: 2;
 }
 
 #navmenu {
   order: 1;
-}
+} */
 
 .header .logo img {
   max-height: 70px;                 /* was 38px → increased */
@@ -2347,7 +2348,7 @@ section,
   line-height: 1.7;
   color: var(--default-color);
   margin: 0;
-  text-align: left;
+  /* text-align: left; */
 }
 
 @media (max-width: 640px) {
@@ -4262,11 +4263,25 @@ section,
 /*--------------------------------------------------------------
 # Need for Digitization — smaller, centered feature images
 --------------------------------------------------------------*/
-.need-digitization .feature-image-decorated {
-  max-width: 400px;        /* shrink the box (was full column width) */
-  margin-left: auto;       /* center within the column */
+/* .need-digitization .feature-image-decorated {
+  max-width: 300px;        
+  margin-left: auto;       
   margin-right: auto;
   padding: 1.25rem;
+} */
+
+.need-digitization .feature-image-decorated {
+  max-width: 300px;        /* outer box size */
+  margin-left: auto;       /* center within the column */
+  margin-right: auto;
+  padding: 0;              /* gap now handled by image width, not padding */
+}
+
+/* Icon image takes the middle portion of the box, leaving an even gap all sides */
+.need-digitization .feature-image-decorated img {
+  width: 100%;              
+  height: 100%;             /* keeps top & bottom gap matching */
+  object-fit: contain;
 }
 
 /* Chip label on image */
