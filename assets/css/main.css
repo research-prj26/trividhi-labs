@@ -4347,6 +4347,25 @@ section,
   object-fit: contain;
 }
 
+/* Light-blue glow behind Need for Digitization images — always on */
+.need-digitization .feature-image-decorated::after {
+  content: "";
+  position: absolute;
+  inset: 8%;
+  z-index: 1;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(0, 123, 255, 0.30) 0%, rgba(0, 123, 255, 0) 70%);
+  animation: trivdhi-pulse 3.5s ease-in-out infinite;
+  pointer-events: none;
+  transition: background 0.4s ease, transform 0.4s ease;
+}
+
+/* On hover — brighter & stronger glow */
+.need-digitization .feature-image-decorated:hover::after {
+  background: radial-gradient(circle, rgba(0, 123, 255, 0.50) 0%, rgba(0, 123, 255, 0) 72%);
+  transform: scale(1.15);
+}
+
 /* Chip label on image */
 .feature-image-chip {
   position: absolute;
