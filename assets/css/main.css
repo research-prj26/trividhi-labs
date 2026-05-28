@@ -1906,7 +1906,7 @@ section,
 }
 
 .hero-description {
-  font-size: 16px !important;
+  font-size: 20px !important;
   line-height: 1.7 !important;
   color: rgba(255, 255, 255, 0.85) !important;
   margin-bottom: 32px !important;
@@ -1989,7 +1989,7 @@ section,
     font-size: 26px !important;
   }
   .hero-description {
-    font-size: 15px !important;
+    font-size: 18px !important;
   }
   .hero-cta {
     flex-direction: column;
@@ -2349,6 +2349,14 @@ section,
   color: var(--default-color);
   margin: 0;
   /* text-align: left; */
+}
+
+/* Highlight "Passion" and "Purpose" in the Trusted Future title */
+.trusted-future .tf-highlight {
+  /* color: #ff5a7a;     */
+  color: #ff7a18;   
+  /* color: #ffd54a;    */
+  /* color: #00c2a8;    */
 }
 
 @media (max-width: 640px) {
@@ -3304,6 +3312,18 @@ section,
 .capabilities .capability-card:hover .capability-arrow i {
   color: #ffffff;
   transform: translateX(2px);
+}
+
+/* Center the orphan card in the last row of Core Capabilities */
+/* .capabilities .row.gy-4 > .col-lg-4:last-child {
+  margin-left: auto;
+  margin-right: auto;
+} */
+@media (min-width: 992px) {
+  .capabilities .row.gy-4 > .col-lg-4:last-child {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media (max-width: 575px) {
