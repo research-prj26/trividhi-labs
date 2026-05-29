@@ -1880,6 +1880,7 @@ section,
   letter-spacing: -0.5px;
 }
 
+/* option 1:.hero-highlight */
 /* .hero-highlight {
   background: linear-gradient(135deg, #4dffb8, #00d4ff);
   -webkit-background-clip: text;
@@ -1887,9 +1888,10 @@ section,
   background-clip: text;
   font-weight: 700;
 } */
+
+/* option 2:.hero-highlight */
 .hero-highlight {
-  /* background: linear-gradient(135deg, #4dffb8, #00d4ff); */
-  background: linear-gradient(120deg, #ffd54a 0%, #2ee6a6 50%, #ffd54a 100%);
+  background: linear-gradient(120deg, #f0ff4a 0%, #2ee6a6 50%, #f0ff4a 100%);
   background-size: 200% auto;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1897,6 +1899,30 @@ section,
   animation: shimmer 4s linear infinite;
   font-weight: 700;
 }
+
+/* option 3:.hero-highlight */
+/* background: linear-gradient(135deg, #4dffb8, #00d4ff); */ 
+/* .hero-highlight {
+  background: linear-gradient(120deg, #ffd54a 0%, #2ee6a6 50%, #ffd54a 100%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: shimmer 4s linear infinite;
+  font-weight: 700;
+} */
+
+/* option 3:.hero-highlight */
+/* .hero-highlight {
+  background: linear-gradient(120deg, #4aff6e 0%, #4affe7 25%, #4afffc 50%, #4ad8ff 75%, #4aabff 100%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: shimmer 8s linear infinite;
+  font-weight: 700;
+} */
+
 
 /* .hero-tagline {
   font-size: 14px !important;
@@ -2361,13 +2387,50 @@ section,
   /* text-align: left; */
 }
 
+/* option 1:.trusted-future .tf-highlight */
 /* Highlight "Passion" and "Purpose" in the Trusted Future title */
-.trusted-future .tf-highlight {
+/* .trusted-future .tf-highlight { */
+  /* color: #bb3fc9; */
   /* color: #ff5a7a;     */
-  color: #ff7a18;   
+  /* color: #ff7a18;    */
   /* color: #ffd54a;    */
   /* color: #00c2a8;    */
+/* } */
+
+/* option 2:.trusted-future .tf-highlight */
+/* Animated shimmer highlight for "Passion" and "Purpose" in the Trusted Future title */
+.trusted-future .tf-highlight {
+  background: linear-gradient(120deg, #4632a8 0%, #6232a8 25%, #7f32a8 50%, #9b32a8 75%, #9b32a8 100%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: shimmer 4s linear infinite;
+  font-weight: 700;
 }
+
+/* option 3:.trusted-future .tf-highlight */
+/* Animated shimmer highlight for "Passion" and "Purpose" in the Trusted Future title */
+/* .trusted-future .tf-highlight {
+  background: linear-gradient(120deg, #ffd54a 0%, #2ee6a6 50%, #ffd54a 100%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: shimmer 4s linear infinite;
+  font-weight: 700;
+} */
+
+/* option 4:.trusted-future .tf-highlight */
+/* .trusted-future .tf-highlight {
+  background: linear-gradient(120deg, #4aff6e 0%, #4affe7 25%, #4afffc 50%, #4ad8ff 75%, #4aabff 100%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: shimmer 8s linear infinite;
+  font-weight: 700;
+} */
 
 @media (max-width: 640px) {
   .trusted-future-card {
@@ -4105,7 +4168,7 @@ section,
 } */
 /* Accent word in H1 */
 .hero-accent {
-  background: linear-gradient(120deg, #ffd54a 0%, #2ee6a6 50%, #ffd54a 100%);
+  background: linear-gradient(120deg, #f0ff4a 0%, #2ee6a6 50%, #f0ff4a 100%);
   background-size: 200% auto;
   -webkit-background-clip: text;
   background-clip: text;

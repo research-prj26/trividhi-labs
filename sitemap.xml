@@ -1,27 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://research-prj26.github.io/trividhi-labs/index.html</loc>
+    <loc>https://www.trividhilabs.com/index.html</loc>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://research-prj26.github.io/trividhi-labs/healthcare.html</loc>
+    <loc>https://www.trividhilabs.com/healthcare.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://research-prj26.github.io/trividhi-labs/education.html</loc>
+    <loc>https://www.trividhilabs.com/education.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://research-prj26.github.io/trividhi-labs/careers.html</loc>
+    <loc>https://www.trividhilabs.com/other-applications.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.trividhilabs.com/research-development.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.trividhilabs.com/careers.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://research-prj26.github.io/trividhi-labs/contact.html</loc>
+    <loc>https://www.trividhilabs.com/contact.html</loc>
     <changefreq>yearly</changefreq>
     <priority>0.8</priority>
   </url>
